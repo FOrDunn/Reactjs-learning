@@ -10,10 +10,10 @@
  Caso voce precise inserir 2 componentes filhos em 1 funcao ou componente
  voce precisa uma um fragment
 
-```
+```js
 <>
-<componente1>
-<componente2>
+ <componente1>
+ <componente2>
 </>
 ```
 ele funciona como uma div so pro codigo, fica invisivel no codigo final
@@ -35,7 +35,7 @@ A comunidade decidiu que depois de destruturar uma variavel com os hooks
 a segunda variavel da array tem o nome comecando com set e depois o mesmo nome da 
 primeira variavel mas com letra maiuscula
 exemplo:
-```
+```js
 const [counter, setCounter] = useState(0);
 ```
 No caso do useState o primeiro valor e uma variavel e o segundo uma funcao pra atualizar a variavel
@@ -43,14 +43,14 @@ No caso do useState o primeiro valor e uma variavel e o segundo uma funcao pra a
 Um Jeito de facilitar a atualizacao da variavel e simplificar usando
 o valor anterior(proprio do useState, ele salva o valor anterior e o valor atualizado)
 
-```
+```js
 function increment(){
   setCounter((valorAnterior)=>valorAnterior+1);
 }
 ```
 ao inves de
 
-```
+```js
 fucntion increment(){
     setCounter(counter + 1);
 }
