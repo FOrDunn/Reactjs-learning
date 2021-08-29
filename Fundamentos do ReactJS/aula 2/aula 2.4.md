@@ -5,7 +5,7 @@ mas sim receber um novo valor
 
 exemplo:
 
-```
+```js
 usuarios = ['nome', 'nome2', 'nome3']
 
 usuarios.push('nome4')
