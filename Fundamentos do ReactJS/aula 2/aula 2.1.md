@@ -23,10 +23,8 @@ exemplo de funcao com retorno em 2 linhas
 ```js
 function componente() {
  return (
-    <>
-        <h1>hello World</h1>
-        <h1>hello World</h1>
-    </>
+    <h1>hello World</h1>
+    <h1>hello World</h1>
     );
 }
 ```

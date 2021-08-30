@@ -12,8 +12,8 @@
 
 ```js
 <>
- <componente1>
- <componente2>
+<componente1>
+<componente2>
 </>
 ```
 ele funciona como uma div so pro codigo, fica invisivel no codigo final
