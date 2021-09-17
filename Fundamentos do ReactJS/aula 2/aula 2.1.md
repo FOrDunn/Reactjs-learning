@@ -13,7 +13,7 @@ Pode ser uma funcao ou classe
 exemplo de funcao com retorno em 1 linha
 
 ```js
-function componente() {
+function Componente() {
     return <h1>hello World</h1>
 }
 ```
@@ -21,7 +21,7 @@ function componente() {
 exemplo de funcao com retorno em 2 linhas
 
 ```js
-function componente() {
+function Componente() {
  return (
     <h1>hello World</h1>
     <h1>hello World</h1>
