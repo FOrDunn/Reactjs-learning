@@ -1,4 +1,4 @@
-**primeiro componente React***
+**primeiro componente React**
 
 E uma forma de encapsular codigo dentro de um unico elemento
 estrutura e estilizacao
